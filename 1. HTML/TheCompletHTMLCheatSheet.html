@@ -151,7 +151,6 @@ target <!---->
 <legend></legend> <!--fieldset caption-->
 <input/> <!--take input-->
 
-
 Input Type Attributes
 type=""<!---->
 name=""<!---->
@@ -165,5 +164,30 @@ min="" <!---->
 max="" <!---->
 autofocus <!---->
 disabled <!---->
-<textarea></textarea>
+<textarea></textarea> <!---->
+<select></select> <!---->
 
+Select Attributes
+name="" <!---->
+size="" <!---->
+multiple <!---->
+required <!---->
+autofocus <!---->
+<option></option> <!--listing individual items-->
+
+Option Attributes
+value="" <!---->
+selected <!---->
+<button></button> <!--creating a button-->
+
+Example
+<form action="form_submit.php" method="post">
+    <fieldset>
+        <legend>Bio</legend> first name <br/> 
+        <input type="text" name="first-name" value="john" placeholder="please enter your first name here"><br/>
+        last name:<br>
+        <input type="text" name="last-name" value="khan" placeholder="please enter your last name here"><br><br>
+        Favorite sport:<br>
+
+    </fieldset>
+</form>
