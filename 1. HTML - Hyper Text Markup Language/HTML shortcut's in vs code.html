@@ -1,0 +1,100 @@
+HTML page Template
+= !
+=><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+Elements
+= h1
+=> <h1></h1>
+
+
+Sibling Element's
+= header+footer
+=> <header></header>
+<footer></footer>
+
+
+Child Element's
+= header>nav
+=> <header>
+    <nav></nav>
+</header>
+
+
+Grouping
+= header+(main>section)+footer
+=> <header></header>
+<main>
+    <section></section>
+</main>
+<footer></footer>
+
+
+Climb Up
+= header+main>section^footer
+=> <header></header>
+<main>
+    <section></section>
+</main>
+<footer></footer>
+
+
+Multiple Element's
+= ul>li*3
+=> <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+
+Class & ID's
+= nav.my-nav <!--class-->
+=> <nav class="my-nav"></nav>
+
+= nav#my-id
+=> <nav id="my-id"></nav>
+
+
+Adding Text
+= button{click me}
+=> <button>click me</button>
+
+
+Custom Attributes
+= button[data-id=btn-id]
+=> <button data-id="btn-id"></button>
+
+
+Numbering
+= ul>li*3#my-item${i'm number $}
+=> <ul>
+    <li id="my-item1">i'm number 1</li>
+    <li id="my-item2">i'm number 2</li>
+    <li id="my-item3">i'm number 3</li>
+</ul>
+
+
+Tag Attributes
+= Script:src
+=> <script src=""></script>
+
+
+Place Holder Text
+= lorem6*3
+=> Lorem ipsum dolor sit amet consectetur.
+Temporibus, laborum! Modi amet aperiam saepe.
+Quia suscipit expedita sequi. Voluptatum, eos.
+
+
+
