@@ -31,3 +31,7 @@ height = input("what is your hight?: ")
 print("My name is "+ name)
 print("I am " + str(age) + " years old")
 print("my height is "+ height)
+
+
+print("Hello world!\nHello world!\nHello World!")
+
