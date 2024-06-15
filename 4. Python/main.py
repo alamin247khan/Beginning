@@ -11,7 +11,7 @@ print(name.count("o"))
 print(name.replace("o","a"))
 print(name*4)
 
-#Type Casting = Convert the data type of a value to onather data type.
+#Type Casting = Convert the data type of a value to another data type.
 x = 1 #int
 y = 2.0 #float
 z = "3" #str
