@@ -1,5 +1,5 @@
 #String Methods
-name = "i love my country"
+name = "i love my country "
 print(len(name))
 print(name.find("r"))
 print(name.capitalize())
