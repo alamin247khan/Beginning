@@ -1,12 +1,22 @@
-console.log(21);
-console.log('good morning')
-var bananaPrice = 50;
-console.log(bananaPrice);
+// Values and Variables
+let country = 'Portugal';
+let continent = 'Europe';
+let Population = 10;
+console.log(country);
+console.log(continent);
+console.log(Population);
 
-var name = "alamin khan"
-console.log(typeof name)
+// Data Types
+let isIceland = false;
+let language;
+console.log(typeof isIceland);
+console.log(typeof Population);
+console.log(typeof country);
+console.log(typeof language);
 
-var isHot = true;
-var isRice = false;
-console.log(typeof isHot)
-
+// let, Const and Var
+language = 'portuguese';
+const country = 'portugal';
+const continent = 'portugal';
+const isIsland = false;
+isIsland = true;
